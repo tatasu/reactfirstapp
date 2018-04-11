@@ -1,0 +1,11 @@
+import React, {Component} from 'react';
+class DummyComponent extends Component {
+  state = {
+    name: 'Manoj'
+  }
+  render() {
+    return (<div>Hello {this.state.name}</div>);
+  }
+  
+}
+export default DummyComponent;
